@@ -1,2 +1,2 @@
 main = do
-  putStrLn (show (min 9 10))
+  putStrLn $ show $ min 9 10
