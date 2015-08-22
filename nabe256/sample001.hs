@@ -1,2 +1,3 @@
+f x y = putStrLn . show $ min x y
 main = do
-  putStrLn . show $ min 9 10
+  f 9 10
